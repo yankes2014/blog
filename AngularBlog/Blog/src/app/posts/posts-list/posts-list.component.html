@@ -1,0 +1,47 @@
+<div style="text-align:center">
+  <h1 class="bg-info text-white">Posty</h1>
+</div>
+<div>
+  <table class="table table-sm table-hover">
+    <tr *ngFor="let post of postService.postList">
+      <td style=" border: 3px solid black;">
+        <b>Tytul:</b> {{post.Title}}
+        <br/>
+        <b>Tresc: </b>{{post.Content}}
+        <br/>
+        <b>CreationDate: </b>{{post.CreationDate}}
+        <br/>
+        <button routerLink="/editPost" class="btn btn-lg btn-secondary" (click)="takeIdForEdit(post.Id)">Edytuj post</button>
+        <button class="btn btn-lg btn-secondary" (click)="post.showComments=true">Pokaz komentarze</button>
+        <button class="btn btn-lg btn-secondary" (click)="onDelete(post.Id)">Usun Post</button>
+        <div *ngIf=post.showComments>
+          <div *ngFor="let comment of post.Comments">
+            <b>Komentarz:</b> {{comment.Content}}
+            <br/>
+          </div>
+
+          <!-- Dodawanie komentarza -->
+          <form class="post-form" #postForm="ngForm" (ngSubmit)="onSubmit(postForm, post.Id)">
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <p style="text-align: center">
+                  <b>Dodawanie komentarza</b>
+                </p>
+              </div>
+              <div class="form-group col-md-12">
+                <input class="form-control" name="Content" #Content="ngModel" [(ngModel)]="postService.comentarz.Content" placeholder="Wprowadź treść komentarza"
+                  required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-8">
+                <button type="submit" class="btn btn-lg btn-block btn-info">
+                  <i class="fa fa-floppy-o"></i> Dodaj komentarz</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>

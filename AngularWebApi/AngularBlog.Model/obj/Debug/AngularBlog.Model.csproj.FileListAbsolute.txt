@@ -1,0 +1,15 @@
+C:\Users\uz01437\Desktop\Update\AngularWebApi\AngularBlog.Model\bin\Debug\AngularBlog.Model.dll
+C:\Users\uz01437\Desktop\Update\AngularWebApi\AngularBlog.Model\bin\Debug\AngularBlog.Model.pdb
+C:\Users\uz01437\Desktop\Update\AngularWebApi\AngularBlog.Model\obj\Debug\AngularBlog.Model.csproj.CoreCompileInputs.cache
+C:\Users\uz01437\Desktop\Update\AngularWebApi\AngularBlog.Model\obj\Debug\AngularBlog.Model.dll
+C:\Users\uz01437\Desktop\Update\AngularWebApi\AngularBlog.Model\obj\Debug\AngularBlog.Model.pdb
+C:\Users\uz01437\Desktop\Update\AngularWebApi\AngularBlog.Model\bin\Debug\AngularBlog.Model.dll.config
+C:\Users\uz01437\Desktop\Update\AngularWebApi\AngularBlog.Model\bin\Debug\EntityFramework.dll
+C:\Users\uz01437\Desktop\Update\AngularWebApi\AngularBlog.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\uz01437\Desktop\Update\AngularWebApi\AngularBlog.Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\uz01437\Desktop\Update\AngularWebApi\AngularBlog.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\uz01437\Desktop\Update\AngularWebApi\AngularBlog.Model\bin\Debug\EntityFramework.xml
+C:\Users\uz01437\Desktop\Update\AngularWebApi\AngularBlog.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\uz01437\Desktop\Update\AngularWebApi\AngularBlog.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\uz01437\Desktop\Update\AngularWebApi\AngularBlog.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\uz01437\Desktop\Update\AngularWebApi\AngularBlog.Model\obj\Debug\AngularBlog.Model.csprojResolveAssemblyReference.cache
